@@ -1,71 +1,92 @@
-# QR Gene - Futuristic QR Code Generator
+# ⚡ QR-Gene - Stylish QR Code Generator
 
-![screenshot](./screenshot.png)
+A beautifully designed and fully responsive web application to generate and download QR codes with style. Built using **HTML, CSS, and JavaScript**, this app features:
 
-**QR Gene** is a sleek, futuristic-themed web app for generating QR codes from text or URLs. Designed with animated visuals, music, and interactive effects, it enhances the standard QR code experience.
+- Dark & Light mode toggle
+- Background music (toggleable)
+- Real-time QR code generation
+- Optional file naming for downloads
 
-## 🚀 Features
+![Dark Mode Screenshot](dark-mode.png)
+![Light Mode Screenshot](light-mode.png)
 
-* 🔲 QR Code generation from any text or URL
-* 🎨 Toggle between dark/light theme with video backgrounds
-* 🎵 Background music and futuristic sound effects on actions
-* ⏳ Loading spinner during QR generation
-* 💾 Download QR with custom filename
-* 🎮 Retro-futuristic UI design using `Orbitron` and `Press Start 2P` fonts
+## 🌐 Live Demo
 
-## 🛠️ Technologies Used
+🚀 [Click here to view the live site](https://jathinchada.github.io/QR-Gene/)
 
-* HTML5, CSS3, JavaScript
-* Google Fonts (Orbitron, Press Start 2P)
-* External QR Code API ([https://api.qrserver.com](https://api.qrserver.com))
-* GitHub Pages for hosting
+---
 
-## 📂 Project Structure
+## 📦 Features
+
+- 🎨 **UI Toggle**: Switch between Dark and Light themes
+- 🎧 **Music Mode**: Toggle background music for a fun experience
+- 📱 **Responsive Design**: Works on desktops, tablets, and smartphones
+- ⚙️ **QR Customization**: Enter any URL or text, and download the QR with a custom filename
+
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3 (with gradient and blur effects)
+- JavaScript (Vanilla)
+- [qrcode.js](https://davidshimjs.github.io/qrcodejs/) for QR code generation
+
+---
+
+## 🚀 Getting Started
+
+### 🖥️ Local Development
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/Jathinchada/QR-Gene.git
+````
+
+2. Navigate into the folder:
+
+```bash
+cd QR-Gene
+```
+
+3. Open `index.html` in your browser.
+
+---
+
+## 📁 Folder Structure
 
 ```
 QR-Gene/
 ├── index.html
-├── styleqr.css
-├── bgdark.mp4
-├── bglight.mp4
-├── bg.mp3
-├── click.mp3
-├── logo.png
-├── screenshot.png
+├── style.css
+├── script.js
+├── dark-mode.png
+├── light-mode.png
 └── README.md
 ```
 
-## 🌐 Live Demo
+---
 
-Access the live version here:
-**[https://jathinchada.github.io/QR-Gene/](https://jathinchada.github.io/QR-Gene/)**
+## ✨ Author
 
-## 🧑‍💻 Setup Locally
+Made with ⚡ by **Jathin**
 
-```bash
-git clone https://github.com/Jathinchada/QR-Gene.git
-cd QR-Gene
-open index.html  # Or use Live Server extension in VSCode
-```
-
-## 🚀 Deploying on GitHub Pages
-
-1. Push your code to GitHub.
-2. Go to `Settings` > `Pages` in your repo.
-3. Under Source, select `main` branch, root (`/`) folder.
-4. Visit: `https://<your-username>.github.io/QR-Gene/`
+* GitHub: [@Jathinchada](https://github.com/Jathinchada)
+* LinkedIn: *Add your LinkedIn link here (optional)*
 
 ---
 
-## 🤖 Author
+## 📜 License
 
-Made with ⚡ by **Jathin Chada**
-[GitHub Profile](https://github.com/Jathinchada)
-
-## 📄 License
-
-This project is open-source and free to use under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-> 🧠 Fun Tip: Want to customize even more? Try adding glitch effects or integrate your own backend for analytics!
+## 💡 Future Improvements
+
+* Add QR color customization
+* Support logo embedding inside QR codes
+* Add history of generated QR codes
+
+
