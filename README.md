@@ -7,8 +7,8 @@ Here's a clean and professional `README.md` file for your QR Code Generator proj
 
 A stylish, futuristic QR Code generator that allows users to instantly create and download QR codes from any text or URL input. Features include dynamic dark/light mode switching, ambient background video, and even background music toggle for an immersive experience.
 
-![Dark Mode](./screenshots/dark-mode.png)
-![Light Mode](./screenshots/light-mode.png)
+![Dark Mode](screenshots/dark-mode.png)
+![Light Mode](screenshots/light-mode.png)
 
 ---
 
