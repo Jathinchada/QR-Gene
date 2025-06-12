@@ -7,8 +7,8 @@ A beautifully designed and fully responsive web application to generate and down
 - Real-time QR code generation
 - Optional file naming for downloads
 
-![Dark Mode Screenshot](dark-mode.png)
-![Light Mode Screenshot](light-mode.png)
+![Dark Mode Screenshot](screenshots/dark-mode.png)
+![Light Mode Screenshot](screenshots/light-mode.png)
 
 ## 🌐 Live Demo
 
